@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="css/home.css">
+
+    
+    <header>
+        <a href="#"><img src="img/logo.png" alt="" /></a>
+        <h1 id="titulo">My Notes</h1>
+        <a href="create"><button>Add Notes</button></a>
+    </header>
+    <div class="wave w1"></div>
+    <div class="wave w2"></div>
+
+    <div class="contenedor_titulo">
+        <h4 id="titulo_principal">
+            <span class="bienvenida"></span>
+        </h4>
+        <a href="tasks"><button>Inicio</button></a>
+    </div>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var Typed = new Typed(".bienvenida", {
+            strings: [
+                "Bienvenido a Mi Bloc De Notas",
+                "welcome to My Note Bloc",
+                "Watashi no memochō e yōkoso",
+                "Willkommen in meinem Notizblock",
+                "Benvenuto in Il mio blocco note",
+            ],
+            typeSpeed: 50,
+            backSpeed: 150,
+            typeDelay: 1000,
+            loop: true,
+        });
+    </script>

@@ -1,0 +1,95 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  background-image: url(/img/aaa.png);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background-color: #967e7600;
+  padding: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Bungee", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #967e76;
+}
+
+.btn {
+  background-color: #d7c0ae;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+.btn:hover {
+  background-color: #967E76;
+}
+
+.contenedor-ver {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  width: 400px;
+  height: 300px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffecc4;
+  box-shadow: rgba(129, 129, 129, 0.336) 1px 5px 10px 10px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.card-description {
+  font-size: 18px;
+  margin: 10px;
+  word-wrap: break-word;
+}
+
+.contenedor-descripciones{
+    background-color: #d7c0ae3a;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}

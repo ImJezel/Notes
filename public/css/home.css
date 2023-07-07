@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montaga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+html {
+  overflow-x: hidden;
+  background-image: url(/img/aaa.png);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Bungee", cursive;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #eee3cb00;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 8rem;
+  overflow: hidden;
+}
+
+header h1 {
+  color: #967e76;
+  font-size: rem;
+  margin-right: auto;
+  margin-left: 1rem;
+  text-shadow: #967e76 3px 3px 13px;
+}
+
+header button {
+  background-color: #967e76;
+  cursor: pointer;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  padding: 3px 5px 5px;
+  color: #eee3cb;
+  transition: borde 1s ease, background-color 1s ease, color 1s ease;
+  border: solid transparent;
+}
+
+header button:hover {
+  background-color: #D7C0AE;
+  color: #967E76;
+}
+
+.contenedor_titulo {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.contenedor_titulo button {
+  color: #eee3cb;
+  background-color: #967e76;
+  border-radius: 11px;
+  border: transparent;
+  scale: 2;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  transition: transform, box-shadow, color 3s ease, background-color 3s ease;
+  box-shadow: rgb(255, 0, 0) px px px px;
+  transition: 3s ease;
+}
+
+.contenedor_titulo button:hover {
+  transform: scale(1.2);
+  box-shadow: rgb(0, 0, 0) 1px 1px 10px 1px;
+  color: #967e76;
+  background-color: #eee3cb;
+}
+
+#titulo_principal {
+  color: #967e76;
+  scale: 3;
+}

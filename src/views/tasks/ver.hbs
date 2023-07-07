@@ -1,0 +1,23 @@
+  <link rel="stylesheet" href="/css/ver.css">
+
+<div class="header">
+  <a href="/tasks">
+    <h1 class="title">My Notes</h1>
+  </a>
+  <a href="/tasks" class="btn">Mis Notas</a>
+</div>
+
+<div class="contenedor-ver">
+
+    {{#each tasks}}
+    <div class="card">
+    <h2 class="card-title">{{title}}</h2>
+
+    <div class="contenedor-descripciones">
+        <p class="card-description">{{description}}</p>
+    </div>
+    
+    </div>
+    {{/each}}
+
+</div>
